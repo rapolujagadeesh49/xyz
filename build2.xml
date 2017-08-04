@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<project name="intel" default="info">
+<property file="build.properties" />
+<target name="info">
+<echo> welcome to info</echo>
+<echo>my java version is ${ant.java.version} </echo>
+<echo>The full location of a file is${ant.file}</echo>
+<echo>The version of the Apache Ant is${ant.version}</echo>
+<echo>The basedir of the build${Basedir}</echo>
+<echo>The version of the JDK that is${ant.java.version}</echo>
+<echo>The name of the project${ant.project.name}</echo>
+<echo>The default target of the current project is${ant.project.default-target}</echo>
+<echo>Comma separated list of the targets that were invoked in the current project${ant.project.invoked-targets}</echo>
+<echo>The full location of the Ant jar file${ant.core.lib}</echo>
+<echo>The home directory of Ant installation${ant.home}</echo>
+<echo>The home directory for Ant library files - typically ANT_HOME/lib folder${ant.library.dir}</echo>
+<echo>Training on ${Training} </echo>
+<echo>Script written by ${Name} </echo>
+<echo>Author address ${Address} </echo>
+</target>
+
+
+
+
+
+</project>
